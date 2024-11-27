@@ -1,15 +1,7 @@
-POST http://localhost:1337/convert/xml-to-json
-Content-Type: application/json
-
-{
-  "filename": "MERCHANT_SETTLEMENT_20241120102004_2201.xml"
-}
-
 ###
-POST http://localhost:1337/convert/json-to-csv
+POST http://localhost:1337/convert
 Content-Type: application/json
 
 {
-  "filename": "MERCHANT_SETTLEMENT_20241120102004_2201.json",
-  "jsonPath": "clearing.operation"
+  "filename": "[filename].xml"
 }

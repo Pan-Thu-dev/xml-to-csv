@@ -18,8 +18,7 @@ module.exports.routes = {
    *                                                                          *
    ***************************************************************************/
 
-  "POST /convert/xml-to-json": "ConverterController.xmlToJson",
-  "POST /convert/json-to-csv": "ConverterController.jsonToCsv",
+  "POST /convert": "ConverterController.convert",
 
   /***************************************************************************
    *                                                                          *
